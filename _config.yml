@@ -1,0 +1,19 @@
+title:             Clean Blog
+email:             pumpapapumpa@gmail.com
+description:       pumpapapumpa's blog
+author:            pumpapapumpa
+baseurl:           ""
+url:               "https://github.com/redgun524/redgun524.github.io"
+
+# Social Profiles
+github_username:   pumpapapumpa
+facebook_username: pumpapapumpa
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+remote_theme:      BlackrockDigital/startbootstrap-clean-blog-jekyll
